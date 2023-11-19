@@ -1,9 +1,3 @@
-/* Course: SENG 513 */
-/* Date: November 13th, 2023 */
-/* Assignment 3 */
-/* Name: Colton Gowans */
-/* UCID: 30143970 */
-
 import { updateCharacterPosition } from "../character/character.js";
 import { squareGameGridChecker } from "../random/utility.js";
 import { collisionsToCheck } from "./collisions.js";

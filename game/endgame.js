@@ -1,9 +1,3 @@
-/* Course: SENG 513 */
-/* Date: November 13th, 2023 */
-/* Assignment 3 */
-/* Name: Colton Gowans */
-/* UCID: 30143970 */
-
 import { toggleGameOver } from "./game.js";
 // import { countingRounds } from "../enemy/enemy-spawning.js";
 

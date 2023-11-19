@@ -1,15 +1,4 @@
-## SENG-513-A3
-
-**Note**: This repository was used for assignment 2 and 3. Commits before assignment 2 due date are for assignment 2, anything after is for assignment 3 (although final product is pretty similar in both) 
-(sorry)
-
-Assignment 2 and 3 for SENG 513 Fall 2023  
-Colton Gowans
-30143970
-
----
-
-#Goob
+##Goob
 
 **Target Platform**:
 Desktop Only
@@ -32,3 +21,7 @@ Survive to the highest round possible!
 - They also use mouse button to shoot bullets
 - Bullets collide with enemies and do damage
 - Enemies collide with you and do damage
+
+<br>
+<br>
+Developed by Colton

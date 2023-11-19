@@ -1,9 +1,3 @@
-/* Course: SENG 513 */
-/* Date: November 13th, 2023 */
-/* Assignment 3 */
-/* Name: Colton Gowans */
-/* UCID: 30143970 */
-
 import { listenForGameContainerChange } from "../random/utility.js";
 
 let gameContainer = document.getElementById("game-container");
@@ -81,18 +75,7 @@ function createZombie() {
 }
 
 function createBigMinion() {
-    let bigMinion = new BigMinion(
-        ++id,
-        "bigMinion",
-        200,
-        10,
-        5,
-        1.7,
-        8,
-        50,
-        "assets/BIG-MINION.png",
-        "animations/BIG-MINION-red.png"
-    );
+    let bigMinion = new BigMinion(++id, "bigMinion", 200, 10, 5, 1.7, 8, 50, "assets/BIG-MINION.png", "animations/BIG-MINION-red.png");
     // console.log(bigMinion);
     return bigMinion;
 }

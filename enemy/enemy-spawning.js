@@ -1,9 +1,3 @@
-/* Course: SENG 513 */
-/* Date: November 13th, 2023 */
-/* Assignment 3 */
-/* Name: Colton Gowans */
-/* UCID: 30143970 */
-
 import { createZombie, createBigMinion } from "./enemy.js";
 import { listenForGameContainerChange } from "../random/utility.js";
 
@@ -86,10 +80,8 @@ function positionEnemy(enemy, zone) {
 
     // move enemy to spot
     const spawnZone = enemySpawnZones[zone];
-    enemy.element.style.top =
-        Math.floor(Math.random() * (spawnZone.height - enemy.element.offsetHeight)) + spawnZone.y + "px";
-    enemy.element.style.left =
-        Math.floor(Math.random() * (spawnZone.width - enemy.element.offsetWidth)) + spawnZone.x + "px";
+    enemy.element.style.top = Math.floor(Math.random() * (spawnZone.height - enemy.element.offsetHeight)) + spawnZone.y + "px";
+    enemy.element.style.left = Math.floor(Math.random() * (spawnZone.width - enemy.element.offsetWidth)) + spawnZone.x + "px";
 
     enemies.push(enemy);
 }

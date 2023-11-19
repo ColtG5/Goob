@@ -1,9 +1,3 @@
-/* Course: SENG 513 */
-/* Date: November 13th, 2023 */
-/* Assignment 3 */
-/* Name: Colton Gowans */
-/* UCID: 30143970 */
-
 import { createBullet } from "../weapons/weapons.js";
 import { gunImage } from "../character/character.js";
 import { getGameOver } from "../game/game.js";
@@ -111,16 +105,8 @@ function spawnBullet(event) {
     bullet.dx = dx;
     bullet.dy = dy;
 
-    const bulletStartX =
-        character.element.offsetLeft +
-        character.element.offsetWidth / 2 +
-        dx * seperationFromCharacter -
-        bulletWidth / 2;
-    const bulletStartY =
-        character.element.offsetTop +
-        character.element.offsetHeight / 2 +
-        dy * seperationFromCharacter -
-        bulletHeight / 2;
+    const bulletStartX = character.element.offsetLeft + character.element.offsetWidth / 2 + dx * seperationFromCharacter - bulletWidth / 2;
+    const bulletStartY = character.element.offsetTop + character.element.offsetHeight / 2 + dy * seperationFromCharacter - bulletHeight / 2;
 
     bullet.element.style.offsetWidth = bulletWidth + "px";
     bullet.element.style.offsetHeight = bulletHeight + "px";
